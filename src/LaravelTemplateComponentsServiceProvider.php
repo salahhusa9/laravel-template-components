@@ -2,7 +2,6 @@
 
 namespace Salahhusa9\LaravelTemplateComponents;
 
-use Salahhusa9\LaravelTemplateComponents\Commands\LaravelTemplateComponentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
