@@ -10,5 +10,10 @@ return [
             'error-div' => 'invalid-feedback',
             'input-error' => 'is-invalid',
         ],
+        'button' => [
+            'button' => 'btn',
+            'indicator-progress' => ' d-block',
+            'spinner-class'
+        ]
     ],
 ];
