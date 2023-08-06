@@ -4,8 +4,7 @@
         {{ $attributes->get('label') }}
     </label>
 
-    <input type="{{ $attributes->get('type') }}" {{ $attributes->whereStartsWith('wire') }}
-        placeholder="{{ $attributes->get('placeholder') }}"
+    <input type="{{ $attributes->get('type') }}"
         class="{{ config('template-components.defult_classes.input.input') }} {{ $attributes->get('class') }}
             @error($attributes->get('name') ?? $attributes->whereStartsWith('wire:model')->first()) 
                 {{ config('template-components.defult_classes.input.input-error') }} 
