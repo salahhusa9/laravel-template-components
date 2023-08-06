@@ -9,6 +9,6 @@ return [
             'input' => '',
             'error-div' => '',
             'input-error' => '',
-        ]
-    ]
+        ],
+    ],
 ];
