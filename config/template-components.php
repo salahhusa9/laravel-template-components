@@ -5,10 +5,10 @@ return [
     'defult_classes' => [
         'input' => [
             'div' => '',
-            'lable' => '',
-            'input' => '',
-            'error-div' => '',
-            'input-error' => '',
+            'label' => 'form-label',
+            'input' => 'form-control ',
+            'error-div' => 'invalid-feedback',
+            'input-error' => 'is-invalid',
         ]
     ]
 ];
