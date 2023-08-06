@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/salahhusa9/laravel-template-components/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/salahhusa9/laravel-template-components/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/salahhusa9/laravel-template-components.svg?style=flat-square)](https://packagist.org/packages/salahhusa9/laravel-template-components)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package is a collection of components that can be used with vuexy and metronic templates, and it can be used with any other template by changing the config file.
 
 ## Installation
 
