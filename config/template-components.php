@@ -9,6 +9,6 @@ return [
             'input' => 'form-control ',
             'error-div' => 'invalid-feedback',
             'input-error' => 'is-invalid',
-        ]
-    ]
+        ],
+    ],
 ];

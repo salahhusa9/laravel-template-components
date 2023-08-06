@@ -2,9 +2,9 @@
 
 namespace Salahhusa9\LaravelTemplateComponents;
 
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spatie\LaravelPackageTools\Commands\InstallCommand;
 
 class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
 {
@@ -18,12 +18,12 @@ class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-template-components')
             ->hasConfigFile()
-            ->hasInstallCommand(function(InstallCommand $command) {
+            ->hasInstallCommand(function ( InstallCommand $command) {
                 $command
                     ->publishConfigFile()
                     ->askToStarRepoOnGitHub('salahhusa9/laravel-template-components');
             });
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'template-components');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views/components', 'template-components');
     }
 }
