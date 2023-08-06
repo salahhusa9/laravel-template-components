@@ -17,9 +17,8 @@ class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-template-components')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-template-components_table')
-            ->hasCommand(LaravelTemplateComponentsCommand::class);
+            ->hasConfigFile();
+
+        $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'template-components');
     }
 }
