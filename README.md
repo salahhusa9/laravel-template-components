@@ -30,8 +30,7 @@ php artisan laravel-template-components:install
 He accept all normal attributes of input tag and add some new attributes:
 - div-class: add class to div tag
 - label-class: add class to label tag
-
-other attributes will be added to input tag
+- other attributes will be added to input tag
 
 ## Testing
 
