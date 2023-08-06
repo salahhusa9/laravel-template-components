@@ -72,7 +72,7 @@ He accept all normal attributes of textarea tag and add some new attributes:
 
 ## Supported Templates
 
-- [Vuexy](https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/dashboard-ecommerce.html)
+- [Vuexy](https://demos.pixinvent.com/vuexy-html-admin-template/landing/)
 - [Metronic](https://preview.keenthemes.com/metronic/demo1/index.html)
 
 | Version           | Supported          |
