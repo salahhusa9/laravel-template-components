@@ -2,7 +2,7 @@
 
 namespace Salahhusa9\LaravelTemplateComponents;
 
-use Salahhusa9\LaravelTemplateComponents\Commands\LaravelTemplateComponentsCommand;
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -18,8 +18,12 @@ class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-template-components')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-template-components_table')
-            ->hasCommand(LaravelTemplateComponentsCommand::class);
+            ->hasInstallCommand(function (InstallCommand $command) {
+                $command
+                    ->publishConfigFile()
+                    ->askToStarRepoOnGitHub('salahhusa9/laravel-template-components');
+            });
+
+        $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'template-components');
     }
 }
