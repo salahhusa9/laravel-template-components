@@ -32,6 +32,17 @@ He accept all normal attributes of input tag and add some new attributes:
 - label-class: add class to label tag
 - other attributes will be added to input tag
 
+## Supported Templates
+
+- [Vuexy](https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/dashboard-ecommerce.html)
+- [Metronic](https://preview.keenthemes.com/metronic/demo1/index.html)
+
+| Version           | Supported          |
+| ----------------- | ------------------ |
+| Vuexy             | :white_check_mark: |
+| Metronic          | :white_check_mark: |
+| Html Standards    | :white_check_mark: |
+
 ## Testing
 
 ```bash
