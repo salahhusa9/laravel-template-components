@@ -23,7 +23,7 @@ php artisan laravel-template-components:install
 
 ## Usage
 
-### Input component
+### Input Component
 ```html
 <x-template-components::input />
 ```
@@ -32,7 +32,7 @@ He accept all normal attributes of input tag and add some new attributes:
 - label-class: add class to label tag
 - other attributes will be added to input tag
 
-### Button component
+### Button Component
 ```html
 <x-template-components::button />
 ```
@@ -49,7 +49,7 @@ we support livewire loading state, so if you use livewire you can use loading st
 <x-template-components::button wire:target="save" />
 ```
 
-### Select component
+### Select Component
 ```html
 <x-template-components::select>
     <option value="1">option 1</option>
@@ -60,6 +60,15 @@ He accept all normal attributes of select tag and add some new attributes:
 - div-class: add class to div tag
 - label-class: add class to label tag
 - other attributes will be added to select tag
+
+### Textarea Component
+```html
+<x-template-components::textarea />
+```
+He accept all normal attributes of textarea tag and add some new attributes:
+- div-class: add class to div tag
+- label-class: add class to label tag
+- other attributes will be added to textarea tag
 
 ## Supported Templates
 
