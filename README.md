@@ -51,7 +51,10 @@ we support livewire loading state, so if you use livewire you can use loading st
 
 ### Select component
 ```html
-<x-template-components::select />
+<x-template-components::select>
+    <option value="1">option 1</option>
+    <option value="2">option 2</option>
+</x-template-components::select>
 ```
 He accept all normal attributes of select tag and add some new attributes:
 - div-class: add class to div tag
