@@ -1,5 +1,5 @@
 <button {{ $attributes->merge(['class' => config('template-components.defult_classes.button.button')]) }} {{ $attributes }} wire:loading.attr="disabled">
-    <span wire:loading.remove wire:target="{{ $attributes->get('wire:target') }}" class="{{ $attributes->get('span-text') }}">
+    <span wire:loading.remove wire:target="{{ $attributes->get('wire:target') }}" class="{{ $attributes->get('span-text-class') }}">
         {{ $slot }}
     </span>
 

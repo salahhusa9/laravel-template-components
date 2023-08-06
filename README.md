@@ -32,6 +32,23 @@ He accept all normal attributes of input tag and add some new attributes:
 - label-class: add class to label tag
 - other attributes will be added to input tag
 
+### Button component
+```html
+<x-template-components::button />
+```
+He accept all normal attributes of button tag and add some new attributes:
+- div-class: add class to div tag
+- span-text-class: add class to span tag that contain button text
+- indicator-progress-class: add class to span tag that contain button progress indicator
+- loading-text: text that will be shown when button is loading
+- spinner-class: add class to span tag that contain button spinner
+- other attributes will be added to button tag
+
+we support livewire loading state, so if you use livewire you can use loading state like this:
+```html
+<x-template-components::button wire:target="save" />
+```
+
 ## Supported Templates
 
 - [Vuexy](https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/dashboard-ecommerce.html)

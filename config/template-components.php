@@ -12,8 +12,8 @@ return [
         ],
         'button' => [
             'button' => 'btn',
-            'indicator-progress' => ' d-block',
-            'spinner-class'
+            'indicator-progress' => 'd-block',
+            'spinner-class' => 'spinner-border spinner-border-sm',
         ]
     ],
 ];
