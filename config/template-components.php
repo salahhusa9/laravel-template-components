@@ -14,6 +14,13 @@ return [
             'button' => 'btn',
             'indicator-progress' => 'd-block',
             'spinner-class' => 'spinner-border spinner-border-sm',
-        ]
+        ],
+        'select' => [
+            'div' => '',
+            'label' => 'form-label',
+            'select' => 'form-select',
+            'error-div' => 'invalid-feedback',
+            'select-error' => 'is-invalid',
+        ],
     ],
 ];

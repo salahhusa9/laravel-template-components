@@ -49,6 +49,15 @@ we support livewire loading state, so if you use livewire you can use loading st
 <x-template-components::button wire:target="save" />
 ```
 
+### Select component
+```html
+<x-template-components::select />
+```
+He accept all normal attributes of select tag and add some new attributes:
+- div-class: add class to div tag
+- label-class: add class to label tag
+- other attributes will be added to select tag
+
 ## Supported Templates
 
 - [Vuexy](https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/dashboard-ecommerce.html)
