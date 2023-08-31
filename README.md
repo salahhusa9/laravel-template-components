@@ -90,6 +90,7 @@ he accept all normal attributes of form tag and add some new attributes:
 | Vuexy             | :white_check_mark: |
 | Metronic          | :white_check_mark: |
 | Html Standards    | :white_check_mark: |
+| Bootstrap Classes | :white_check_mark: |
 
 ## Testing
 

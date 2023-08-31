@@ -4,9 +4,9 @@
 return [
     'defult_classes' => [
         'input' => [
-            'div' => '',
+            'div' => 'form-group',
             'label' => 'form-label',
-            'input' => 'form-control ',
+            'input' => 'form-control',
             'error-div' => 'invalid-feedback',
             'input-error' => 'is-invalid',
         ],
