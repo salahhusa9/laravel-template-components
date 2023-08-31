@@ -5,5 +5,5 @@
 use Illuminate\Support\Facades\View;
 
 it('can render input component', function () {
-    $this->assertTrue(View::exists('template-components::input'));
+    $this->assertTrue(View::exists('template-components::components.input'));
 });
