@@ -25,7 +25,7 @@ php artisan laravel-template-components:install
 
 ### Input Component
 ```html
-<x-template-components::input />
+<x.template-components::input />
 ```
 He accept all normal attributes of input tag and add some new attributes:
 - div-class: add class to div tag
@@ -34,7 +34,7 @@ He accept all normal attributes of input tag and add some new attributes:
 
 ### Button Component
 ```html
-<x-template-components::button />
+<x.template-components::button />
 ```
 He accept all normal attributes of button tag and add some new attributes:
 - div-class: add class to div tag
@@ -46,12 +46,12 @@ He accept all normal attributes of button tag and add some new attributes:
 
 we support livewire loading state, so if you use livewire you can use loading state like this:
 ```html
-<x-template-components::button wire:target="save" />
+<x.template-components::button wire:target="save" />
 ```
 
 ### Select Component
 ```html
-<x-template-components::select>
+<x.template-components::select>
     <option value="1">option 1</option>
     <option value="2">option 2</option>
 </x-template-components::select>
@@ -63,7 +63,7 @@ He accept all normal attributes of select tag and add some new attributes:
 
 ### Textarea Component
 ```html
-<x-template-components::textarea />
+<x.template-components::textarea />
 ```
 He accept all normal attributes of textarea tag and add some new attributes:
 - div-class: add class to div tag
@@ -72,7 +72,7 @@ He accept all normal attributes of textarea tag and add some new attributes:
 
 ### Form Component
 ```html
-<x-template-components::form>
+<x.template-components::form>
     
 </x-template-components::form>
 ```
