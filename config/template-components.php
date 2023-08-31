@@ -34,6 +34,6 @@ return [
             'header' => 'card-header',
             'body' => 'card-body',
             'footer' => 'card-footer',
-        ]
+        ],
     ],
 ];
