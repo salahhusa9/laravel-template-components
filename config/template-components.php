@@ -4,9 +4,9 @@
 return [
     'defult_classes' => [
         'input' => [
-            'div' => '',
+            'div' => 'form-group',
             'label' => 'form-label',
-            'input' => 'form-control ',
+            'input' => 'form-control',
             'error-div' => 'invalid-feedback',
             'input-error' => 'is-invalid',
         ],
@@ -21,6 +21,19 @@ return [
             'select' => 'form-select',
             'error-div' => 'invalid-feedback',
             'select-error' => 'is-invalid',
+        ],
+        'textarea' => [
+            'div' => 'form-group',
+            'label' => 'form-label',
+            'textarea' => 'form-control',
+            'error-div' => 'invalid-feedback',
+            'textarea-error' => 'is-invalid',
+        ],
+        'card' => [
+            'div' => 'card',
+            'header' => 'card-header',
+            'body' => 'card-body',
+            'footer' => 'card-footer',
         ],
     ],
 ];
