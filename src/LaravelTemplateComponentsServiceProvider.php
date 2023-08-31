@@ -31,6 +31,7 @@ class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
             'input' => 'template-components::components.input',
             'select' => 'template-components::components.select',
             'textarea' => 'template-components::components.textarea',
+            'form' => 'template-components::components.form',
         ]);
     }
 }
