@@ -18,12 +18,19 @@ class LaravelTemplateComponentsServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-template-components')
             ->hasConfigFile()
+            ->hasViews()
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
                     ->askToStarRepoOnGitHub('salahhusa9/laravel-template-components');
             });
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'template-components');
+        $this->loadViewComponentsAs('template-components', [
+            'card' => 'template-components::components.card',
+            'button' => 'template-components::components.button',
+            'input' => 'template-components::components.input',
+            'select' => 'template-components::components.select',
+            'textarea' => 'template-components::components.textarea',
+        ]);
     }
 }
