@@ -80,6 +80,19 @@ he accept all normal attributes of form tag and add some new attributes:
 - route: route name that will be used in form action
 - other attributes will be added to form tag
 
+### Card Component
+```html
+<x-template-components-card>
+    <x-slot:header>
+        Heading
+    </x-slot>
+    Content
+    <x-slot:footer>
+        Footer
+    </x-slot>
+</x-template-components-card>
+```
+
 ## Supported Templates
 
 - [Vuexy](https://demos.pixinvent.com/vuexy-html-admin-template/landing/)
