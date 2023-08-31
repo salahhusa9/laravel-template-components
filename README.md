@@ -94,7 +94,7 @@ he accept all normal attributes of form tag and add some new attributes:
 ```
 he accept all normal attributes of div tag and add some new attributes:
 - div-class: add class to div tag (contener div)
-- other attributes will be added to form tag
+- other attributes will be added to div tag (content div)
 
 ## Supported Templates
 
